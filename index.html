@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Forecast</title>
+    <link rel="shortcut icon" href="https://image.flaticon.com/icons/png/512/3127/3127236.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <main class="container-fluid">
+        <header>
+            <nav class="navbar ">
+                <div class="container">
+                  <a class="navbar-brand" href="index.html">
+                    <img src="https://image.flaticon.com/icons/png/512/2076/2076808.png" alt="" width="30" height="24">
+                  </a>
+                </div>
+              </nav>
+
+        </header>
+
+        <section class="mt-5">
+            <div class="input-group mb-3 w-50 mx-auto mt-5">
+                <input id="input-Field" type="text" class="form-control" placeholder="Search Any city"
+                    aria-label="Recipient's username" aria-describedby="button-addon2">
+                <button onclick="weatherbtn()" id="btn" class="btn btn-outline-secondary" type="button">Push</button>
+            </div>
+        </section>
+        <section id="cardID">
+            
+            
+            
+              
+        </section>
+    </main>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
+
+<!-- border-dark mb-3 -->
+<!-- https://api.openweathermap.org/data/2.5/weather?q=${inputFieldText}&appid=edd4505bafbfa147a6109937ce0afea7 -->

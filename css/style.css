@@ -1,0 +1,20 @@
+body{
+   background-image: url(https://cdn.pixabay.com/photo/2016/04/15/10/23/grindelwald-1330662_960_720.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+
+.cardClass{
+    background-color:transparent;
+
+}
+
+.cElement{
+   
+    color: rgba(15, 6, 5, 0.397);
+    position: relative;
+    top: -8px;
+
+}
+
