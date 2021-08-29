@@ -27,7 +27,8 @@ const displayWeather = weatherForecast =>{
       <span class="card-text">Temperature-Max ${resultMain.temp_min}</span>
       <span class="card-text">Temperature-Max ${resultMain.temp_max}</span>
       <p class="card-text">Humidity: ${resultMain.humidity}</p>
-      <p class="card-text">Sky: ${resultWeather.main}</p>
+      <p class="card-text d-inline">Sky: ${resultWeather.main}</p>
+      <img class="d-inline" src="http://openweathermap.org/img/w/${resultWeather.icon}.png" alt="">
     </div>
     </div> 
     `
